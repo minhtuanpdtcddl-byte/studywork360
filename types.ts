@@ -20,6 +20,26 @@ export interface StudentProfile {
   completedHours: number;
   totalHours: number;
   skills: string[];
+  email?: string;
+  phone?: string;
+  address?: string;
+  dob?: string;
+  bio?: string;
+}
+
+export interface BusinessProfile {
+  id: string;
+  name: string;
+  industry: string;
+  location: string;
+  description: string;
+}
+
+export interface SchoolProfile {
+  id: string;
+  name: string;
+  address: string;
+  phone: string;
 }
 
 export interface InternshipReport {
